@@ -38,7 +38,7 @@ STUDENT createSTUDENT() {
 	return newSTUDENT;
 }
 
-void StudentFileEnd(const char* filename, const STUDENT& studentToAdd) {//добавить страну в конец файла
+void StudentFileEnd(const char* filename, const STUDENT& studentToAdd) {//добавить ст в конец файл
 
 	ofstream fout(filename, ios::binary | ios::out | ios::app);
 
